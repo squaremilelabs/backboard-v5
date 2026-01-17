@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-classnames",
+    "prettier-plugin-merge"
+  ],
+  "semi": false,
+  "printWidth": 100,
+  "proseWrap": "always",
+  "trailingComma": "es5",
+  "quotes": true,
+  "quoteProps": "consistent",
+  "tailwindStylesheet": "./src/ui/theme/index.css",
+  "tailwindFunctions": ["tv", "cn"]
+}

@@ -1,0 +1,11 @@
+{
+  "tailwindCSS.experimental.configFile": "src/ui/theme/index.css",
+  "tailwindCSS.experimental.classRegex": [
+    ["(?:tv|cn)\\(([^;]*)[\\);]", "[`'\"`]([^'\"`;]*)[`'\"`]"],
+    ["(?:tv|cn)\\(([^;]*)\\)", "[`'\"`]([^'\"`;]*)[`'\"`]"]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "prisma.pinToPrisma6": true
+}
