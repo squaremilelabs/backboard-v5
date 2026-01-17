@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "react-aria-components"
 import { LayersIcon } from "lucide-react"
 import { useState } from "react"
