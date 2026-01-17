@@ -2,3 +2,15 @@
 @import "./colors.css";
 @import "./fonts.css";
 @import "./units.css";
+
+
+@layer base {
+  /*  As of Tailwind V4, border-color defaulted to currentColor. Modified here. */
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    @apply border-base-border;
+  }
+
+  * {
+    @apply outline-base-outline;
+  }
+}

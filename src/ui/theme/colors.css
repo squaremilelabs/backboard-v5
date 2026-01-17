@@ -46,11 +46,11 @@
 
   --neutral-bg: var(--tw-neutral-500);
   --neutral-fg: var(--tw-neutral-50);
-  --neutral-text: var(--tw-neutral-400);
+  --neutral-text: var(--tw-neutral-500);
   --neutral-border: var(--tw-neutral-600);
 
   --neutral-muted-bg: var(--tw-neutral-200);
-  --neutral-muted-fg: var(--tw-neutral-400);
+  --neutral-muted-fg: var(--tw-neutral-600);
   --neutral-muted-border: var(--tw-neutral-300);
 
   --primary-bg: var(--sml-gold-500);
