@@ -35,10 +35,66 @@
   --sml-gold-800: oklch(44.38% 0.08 62.58);
   --sml-gold-900: oklch(39.94% 0.07 58.15);
   --sml-gold-950: oklch(27.10% 0.05 53.29);
+}
 
-  /* Semantic Colors */
+:root {
+  --base-bg: white;
+  --base-surface: var(--tw-neutral-50);
+  --base-text: var(--tw-neutral-950);
+  --base-border: var(--tw-neutral-200);
+  --base-outline: var(--sml-gold-500);
+
+  --neutral-bg: var(--tw-neutral-500);
+  --neutral-fg: var(--tw-neutral-50);
+  --neutral-text: var(--tw-neutral-400);
+  --neutral-border: var(--tw-neutral-600);
+
+  --neutral-muted-bg: var(--tw-neutral-200);
+  --neutral-muted-fg: var(--tw-neutral-400);
+  --neutral-muted-border: var(--tw-neutral-300);
+
+  --primary-bg: var(--sml-gold-500);
+  --primary-fg: var(--sml-gold-50);
+  --primary-text: var(--sml-gold-500);
+  --primary-border: var(--sml-gold-600);
+
+  --primary-muted-bg: var(--sml-gold-200);
+  --primary-muted-fg: var(--sml-gold-600);
+  --primary-muted-border: var(--sml-gold-300);
+
+  --danger-bg: var(--tw-red-800);
+  --danger-fg: var(--tw-red-50);
+  --danger-text: var(--tw-red-800);
 }
 
 @theme {
   --color-*: initial;
+
+  --color-base-bg: var(--base-bg);
+  --color-base-surface: var(--base-surface);
+  --color-base-text: var(--base-text);
+  --color-base-border: var(--base-border);
+  --color-base-outline: var(--base-outline);
+
+  --color-neutral-bg: var(--neutral-bg);
+  --color-neutral-fg: var(--neutral-fg);
+  --color-neutral-text: var(--neutral-text);
+  --color-neutral-border: var(--neutral-border);
+
+  --color-neutral-muted-bg: var(--neutral-muted-bg);
+  --color-neutral-muted-fg: var(--neutral-muted-fg);
+  --color-neutral-muted-border: var(--neutral-muted-border);
+
+  --color-primary-bg: var(--primary-bg);
+  --color-primary-fg: var(--primary-fg);
+  --color-primary-text: var(--primary-text);
+  --color-primary-border: var(--primary-border);
+
+  --color-primary-muted-bg: var(--primary-muted-bg);
+  --color-primary-muted-fg: var(--primary-muted-fg);
+  --color-primary-muted-border: var(--primary-muted-border);
+
+  --color-danger-bg: var(--danger-bg);
+  --color-danger-fg: var(--danger-fg);
+  --color-danger-text: var(--danger-text);
 }

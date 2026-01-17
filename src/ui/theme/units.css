@@ -1,4 +1,18 @@
 @theme {
+  --spacing: 1px;
+
+  --spacing-content-xs: 12px;
+  --spacing-content-sm: 16px;
+  --spacing-content-md: 20px;
+  --spacing-content-lg: 24px;
+  --spacing-content-xl: 32px;
+
+  --spacing-box-xs: 16px;
+  --spacing-box-sm: 24px;
+  --spacing-box-md: 36px;
+  --spacing-box-lg: 48px;
+  --spacing-box-xl: 64px;
+
   --text-xs: 9px;
   --text-xs--line-height: 12px;
   --text-sm: 12px;
@@ -11,20 +25,20 @@
   --text-xl--line-height: 32px;
 
   --breakpoint-*: initial;
-  --breakpoint-xs: 18rem; /* 288px */
-  --breakpoint-sm: 36rem; /* 576px */
-  --breakpoint-md: 54rem; /* 864px */
-  --breakpoint-lg: 72rem; /* 1152px */
-  --breakpoint-xl: 90rem; /* 1440px */
+  --breakpoint-xs: 288px; /* 288px */
+  --breakpoint-sm: 576px; /* 576px */
+  --breakpoint-md: 864px; /* 864px */
+  --breakpoint-lg: 1152px; /* 1152px */
+  --breakpoint-xl: 1440px; /* 1440px */
 
   --container-*: initial;
-  --container-xs: 18rem; /* 288px */
-  --container-xs-sm: 27rem; /* 432px */
-  --container-sm: 36rem; /* 576px */
-  --container-sm-md: 45rem; /* 720px */
-  --container-md: 54rem; /* 864px */
-  --container-md-lg: 63rem; /* 1008px */
-  --container-lg: 72rem; /* 1152px */
-  --container-lg-xl: 81rem; /* 1296px */
-  --container-xl: 90rem; /* 1440px */
+  --container-xs: 288px; /* 288px */
+  --container-xs-sm: 432px; /* 432px */
+  --container-sm: 576px; /* 576px */
+  --container-sm-md: 720px; /* 720px */
+  --container-md: 864px; /* 864px */
+  --container-md-lg: 1008px; /* 1008px */
+  --container-lg: 1152px; /* 1152px */
+  --container-lg-xl: 1296px; /* 1296px */
+  --container-xl: 1440px; /* 1440px */
 }
