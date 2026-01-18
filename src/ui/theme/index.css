@@ -13,4 +13,8 @@
   * {
     @apply outline-base-outline;
   }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
 }

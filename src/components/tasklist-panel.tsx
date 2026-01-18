@@ -5,9 +5,7 @@ export function TasklistPanel() {
         border-base-border bg-base-surface"
     >
       <div className="flex min-h-box-md shrink-0 items-center border-b-2 border-base-border"></div>
-      <div className="min-h-300 overflow-auto rounded-b-[8px] bg-base-bg">
-        <div className="h-1000"></div>
-      </div>
+      <div className="min-h-100 overflow-auto rounded-b-[8px] bg-base-bg"></div>
     </div>
   )
 }
