@@ -6,8 +6,9 @@ import { useState } from "react"
 import { cn } from "@/ui/utils/tailwind"
 import { chip } from "@/ui/primitives/chip"
 import { scopes, type Scope } from "@/lib/db.mock"
+import { button } from "@/ui/primitives/button"
 
-export function RootScopeSelector() {
+export function ScopeNav() {
   const [selectedScopes, setSelectedScopes] = useState<Scope[]>([])
 
   const mock_onPress = () => {
@@ -23,14 +24,15 @@ export function RootScopeSelector() {
   return (
     <Button
       onPress={mock_onPress}
-      className={cn(
-        `flex h-box-md items-center gap-8 overflow-auto rounded-[8px] border-2 border-base-border
-        bg-base-surface px-8 transition-all data-focus-visible:scale-105 data-hovered:opacity-80
-        data-pressed:scale-95`,
-        !hasSelectedScopes &&
-          `border-transparent bg-transparent text-neutral-text data-hovered:bg-base-surface
-          data-hovered:opacity-100`
-      )}
+      className={button({
+        hoverEffect: "fill",
+        withScaleEffect: true,
+        className: cn(
+          `flex h-box-md items-center gap-8 overflow-auto rounded-[8px] border-2 border-base-border
+          bg-base-surface px-8`,
+          !hasSelectedScopes && "border-0 bg-transparent text-neutral-text"
+        ),
+      })}
     >
       <LayersIcon className="shrink-0" />
       {hasSelectedScopes && (

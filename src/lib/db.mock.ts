@@ -14,7 +14,7 @@ export type Task = {
   created_at: number
   last_snoozed_at: number | null
   last_unsnoozed_at: number | null
-  snoozed_until: number | null // timestamp or SomedayValue for "someday" - 2999-12-31
+  snoozed_until: number | null // timestamp or SomedayValue - 2999-12-31
   done_at: number | null
 }
 
