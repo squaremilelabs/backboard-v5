@@ -1,29 +1,29 @@
 @theme {
-  --spacing: 1px;
+  --spacing: 0.0625rem; /* 1px */
 
-  --spacing-content-xs: 12px;
-  --spacing-content-sm: 16px;
-  --spacing-content-md: 20px;
-  --spacing-content-lg: 24px;
-  --spacing-content-xl: 32px;
+  --spacing-content-xs: 0.75rem; /* 12px */
+  --spacing-content-sm: 1rem; /* 16px */
+  --spacing-content-md: 1.25rem; /* 20px */
+  --spacing-content-lg: 1.5rem; /* 24px */
+  --spacing-content-xl: 2rem; /* 32px */
 
-  --spacing-box-xs: 16px;
-  --spacing-box-sm: 24px;
-  --spacing-box-md: 36px;
-  --spacing-box-lg: 48px;
-  --spacing-box-xl: 64px;
+  --spacing-box-xs: 1rem; /* 16px */
+  --spacing-box-sm: 1.5rem; /* 24px */
+  --spacing-box-md: 2.25rem; /* 36px */
+  --spacing-box-lg: 3rem; /* 48px */
+  --spacing-box-xl: 4rem; /* 64px */
 
   --text-*: initial;
-  --text-xs: 9px;
-  --text-xs--line-height: 12px;
-  --text-sm: 12px;
-  --text-sm--line-height: 16px;
-  --text-md: 15px;
-  --text-md--line-height: 20px;
-  --text-lg: 18px;
-  --text-lg-line--height: 24px;
-  --text-xl: 24px;
-  --text-xl--line-height: 32px;
+  --text-xs: 0.5625rem; /* 9px */
+  --text-xs--line-height: 0.75rem; /* 12px */
+  --text-sm: 0.75rem; /* 12px */
+  --text-sm--line-height: 1rem; /* 16px */
+  --text-md: 0.9375rem; /* 15px */
+  --text-md--line-height: 1.25rem; /* 20px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-lg-line--height: 1.5rem; /* 24px */
+  --text-xl: 1.5rem; /* 24px */
+  --text-xl--line-height: 2rem; /* 32px */
 
   --breakpoint-*: initial;
   --breakpoint-xs: 288px; /* 288px */
@@ -48,8 +48,8 @@
   /* Makes lucide icons conform to text-based class names. */
   .lucide {
     width: 1lh;
-    padding-left: calc((1lh - 1em) / 2);
-    padding-right: calc((1lh - 1em) / 2);
     height: 1lh;
+    padding-inline: calc((1lh - 1em) / 2);
+    flex-shrink: 0;
   }
 }
