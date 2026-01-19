@@ -14,14 +14,15 @@ export const cn = (...inputs: ClassValue[]) => extendTailwindMerge(twMergeConfig
 /** Global tailwind-variants function - preconfigured with twMergeConfig */
 export const tv = createTV({ twMergeConfig })
 
-export type { ClassValue }
+/** Rexport of types since we want to prevent direct imports from tailwind-variants & tailwind-merge */
+export type { ClassValue, TVReturnType, TVReturnProps } from "tailwind-variants"
 
 /**
- * Type utility for extracting slotted class names from a tailwind-variants function
- * With optionality for passing as a function with render props as an argument
+ * Type utility for extracting slotted class names from a tv function.
+ * With optionality for passing as a function with RAC renderProps as an argument.
  */
 export type SlottedClassNames<
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Can't create a generic tv return type
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any -- Can't construct a generic tv return type
   T extends (...args: any[]) => any,
   R extends object | null = null,
 > = R extends object
