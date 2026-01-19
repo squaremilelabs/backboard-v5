@@ -1,4 +1,4 @@
-import { tv } from "tailwind-variants"
+import { tv } from "../utils/tailwind"
 
 export const button = tv({
   base: "flex items-center transition-all",

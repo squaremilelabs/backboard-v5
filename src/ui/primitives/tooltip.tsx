@@ -1,6 +1,5 @@
-import { ClassValue, tv } from "tailwind-variants"
 import { Tooltip as AriaTooltip, TooltipProps, OverlayArrow } from "react-aria-components"
-import { cn } from "../utils/tailwind"
+import { ClassValue, cn, tv } from "../utils/tailwind"
 
 export const tooltip = tv({
   slots: {

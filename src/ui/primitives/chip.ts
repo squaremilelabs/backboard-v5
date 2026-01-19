@@ -1,4 +1,4 @@
-import { tv } from "tailwind-variants"
+import { tv } from "../utils/tailwind"
 
 export const chip = tv({
   base: "flex items-center rounded-[8px] px-8 font-medium",
