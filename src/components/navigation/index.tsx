@@ -6,7 +6,7 @@ import { ScopeNav } from "./scope-nav"
 
 export function Navigation() {
   return (
-    <Toolbar className="flex justify-between gap-8">
+    <Toolbar className="flex grow justify-between gap-8">
       <StatusNav />
       <ScopeNav />
     </Toolbar>
